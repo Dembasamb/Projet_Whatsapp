@@ -1,7 +1,6 @@
 
 /********************APPELLE D'ELLEMENTS******************************/
 body = document.querySelector("body");
-//body.style.backgroundColor='rgb(11, 11, 23)'
 /**************************************************/
 header_div = document.createElement("div");
 man_div = document.createElement("div");
@@ -18,9 +17,38 @@ header_div.style.display = "flex";
 header_div.style.flexDirection = "column";
 /**************************************************/
 head11_div = document.createElement("div");
+head11_div.style.backgroundColor = "rgba(0,128,105,255)"
+
 head12_div = document.createElement("div");
+head12_div.style.justifyContent= "center"
+head12_div.style.alignItems= "center"
+head12_div.style.display="flex"
+iconphoto = document.createElement("img");
+iconphoto.setAttribute("src","/Photos/icons8-photo-material-filled/icons8-photo-48.png")
+head12_div.appendChild(iconphoto)
+head12_div.style.backgroundColor = "rgba(0,128,105,255)"
+
+
+
 head13_div = document.createElement("div");
+iconrecherche = document.createElement("img");
+iconrecherche.setAttribute("src","/Photos/icons8-chercher-material-filled/icons8-chercher-48.png")
+head13_div.appendChild(iconrecherche)
+head13_div.style.backgroundColor = "rgba(0,128,105,255)"
+head13_div.style.display="flex"
+head13_div.style.justifyContent= "center"
+head13_div.style.alignItems= "center"
+
+
 head14_div = document.createElement("div");
+iconmenu = document.createElement("img");
+iconmenu.setAttribute("src","/Photos/icons8-menu-2-material-filled/icons8-menu-2-48.png")
+head14_div.appendChild(iconmenu)
+head14_div.style.backgroundColor = "rgba(0,128,105,255)"
+head14_div.style.display="flex"
+head14_div.style.justifyContent= "center"
+head14_div.style.alignItems= "center"
+
 head1_div.appendChild(head11_div);
 head1_div.appendChild(head12_div);
 head1_div.appendChild(head13_div);
@@ -48,12 +76,8 @@ head13_div.style.width = "10%";
 head14_div.style.width = "10%";
 head1_div.style.height = "20vh";
 head1_div.style.width = "100%";
-head1_div.style.border = "2px solid";
-head11_div.style.border = "1.5px solid blue";
-head12_div.style.border = "1.5px solid blue";
-head13_div.style.border = "1.5px solid blue";
-head14_div.style.border = "1.5px solid blue";
-/**************************************************/
+
+
 head21_div.style.width = "33%";
 head21_div.justifyContent = "center";
 head21_div.alignItems = "center";
@@ -115,10 +139,17 @@ h35 = document.createElement("h4");
 
 span1 = document.createElement("span");
 span1.appendChild(h35);
+span1.style.position = "relative";
+h35.style.bottom = "-22px"
+h35.style.color="rgba(0,128,105,255)"
+
 h35.innerHTML = "35"
+h35.setAttribute("class", "h35")
+h35.style.position = "absolute";
+
 body=document.querySelector('body')
 body.style.display='flex'
-body.style.backgroundColor='rgb(13, 11, 27)'
+//body.style.backgroundColor='rgb(13, 11, 27)'
 /*******************************************************/
 man_div=document.createElement('div')
 man_div.style.display='flex'
@@ -267,40 +298,6 @@ man15_div.style.width='100%'
 man15_div.style.height='20vh'
 man1_div.appendChild(man15_div)
 /*******************************************************/
-/*******************************************************/
-/*******************************************************/
-/*******************************************************/
-
-
-/*******************************************************/
-/*******************************************************/
-/*******************************************************/
-/*******************************************************/
-
-
-/*******************************************************/
-/*******************************************************/
-/*******************************************************/
-/*******************************************************/
-
-
-/*******************************************************/
-/*******************************************************/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 head211_div.appendChild(h3);
 head211_div.appendChild(span1);
